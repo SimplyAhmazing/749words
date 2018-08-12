@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.editor {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  width: 900px;
+  height: 700px;
+  overflow-y: hidden;
+
+  border: none;
+  outline: none;
+}
+
+.word-counter {
+  color: green;
+  font-size: 20px;
+}
